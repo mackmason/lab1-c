@@ -5,7 +5,7 @@
 int main(void) {
   char *celsiusString = readline("Enter temperature in celsius: ");
   float celsiusFloat = atof(celsiusString);
-  float fahrenheit = ((9 * celsiusFloat) / 5 + 32);
+  float fahrenheit = (9/5 * celsiusFloat + 32);
   printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n",celsiusFloat,fahrenheit);
   return 0;
 }
