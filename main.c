@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <readline/readline.h>
 #include <stdlib.h>
-#include <string.h>
-
 
 int main(void) {
   char *celsiusString = readline("Enter temperature in celsius: ");
